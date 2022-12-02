@@ -1,0 +1,17 @@
+
+
+   ----------ENDROITS DU CODE À MODIFIER POUR AJOUTER L'ATTRIBUT "PRIVATE/PUBLIC EVENT"----------
+
+
+[1] 
+
+https://github.com/pimutils/khal/blob/master/khal/cli.py (def new)
+
+[2]
+
+https://github.com/pimutils/khal/blob/master/khal/icalendar.py (def new_vevent)
+
+dans la signature rajouter reach: Optional[Union[List[str], str]]= "Private",
+
+
+
